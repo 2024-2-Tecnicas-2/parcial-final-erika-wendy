@@ -1,5 +1,5 @@
 package logicaNegocio;
 
 public enum TipoHabitat {
-    ACUATICO , TERRESTE , AEREO
+    ACUATICO , TERRESTRE , AEREO
 }

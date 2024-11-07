@@ -1,8 +1,8 @@
 package logicaNegocio;
 
 public class Perro extends Animal {
-    // TODO: Aquí va tu código
-
+    
+private TipoHabitat habitat = TipoHabitat.TERRESTRE;
     @Override
     public String emitirSonido() {
         return "Ladrido";
@@ -12,5 +12,11 @@ public class Perro extends Animal {
     public String obtenerDieta() {
         return "Omnívoro";
     }
-
+    @Override
+    public String interactuarConHumano() {
+        return "El perro mueve la cola y ladra de felicidad";
+    }
+      public TipoHabitat getHabitat() {
+        return habitat;
+    }
 }
